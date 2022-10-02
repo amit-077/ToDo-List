@@ -1,0 +1,119 @@
+body{
+  text-align: center;
+  background-color: #A9C9FF;
+background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+}
+
+.todoItem{
+  color: black;
+  background-color: #fff;
+  width: 80%;
+  display: inline-block;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  border-radius: 15px;
+  text-align: left;
+  padding-left: 30px;
+  height: auto;
+  box-shadow: 0 0 10px #F0F0F0;
+  text-align: justify;
+  padding-right: 30px;
+}
+
+.todoDiv{
+  padding: 0px 0px
+}
+
+#itemDiv{
+  margin-top: 40px;
+  background-color: #FAFAFA;
+  width: 80%;
+  display: inline-block;
+}
+
+.container{
+  width: 700px;
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+padding-top: 30px;
+padding-bottom: 100px;
+margin-top: 10px;
+border-radius: 5%;
+
+}
+
+#btn{
+  border: none;
+  background-color: transparent;
+  opacity: 0.15;
+}
+
+#btn:hover{
+  opacity: 0.4;
+}
+
+#itemDiv{
+  border: 1px inset;
+  border-radius: 20px;
+  padding: 20px 0px;
+  box-shadow: 0px 0px 2px #000;
+}
+
+#input{
+  width: 80%;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+#add{
+  border: none;
+  background: transparent;
+  background-color: #DFF6FF;
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 2px black;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Merienda One', cursive;
+}
+
+#check{
+  display: inline-block;
+}
+
+#btnDiv{
+  display: inline-block;
+}
+
+input[type='checkbox']:checked + label{
+  text-decoration: line-through;
+  text-decoration-color: green;
+  animation: 1s;
+}
+
+/* .heading {
+  margin-bottom: 30px;
+  background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+} */
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Luckiest Guy', cursive;
+  background: #FF3CAC;
+background: linear-gradient(to top left, #FF3CAC 0%, #784BA0 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+label{
+  font-family: 'Balsamiq Sans', cursive;
+}
