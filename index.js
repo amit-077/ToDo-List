@@ -44,7 +44,7 @@ function displayItems(){
   let count=-1;
   items.forEach(function(item){
     count+=1;
-    html += `<div class="todoDiv"><p class = "todoItem"><input type="checkbox" name=box${count}>&nbsp&nbsp<label for="box${count}">${item}</label></p><div id="btnDiv"><button id="btn" onclick="deleteItem(${count})"><i class="fa-solid fa-trash"></i></button></div></div>`;
+    html += `<div class="todoDiv"><p class = "todoItem"><input type="checkbox" name=box${count}>&nbsp&nbsp<label for="box${count}">${item}</label></p><div id="btnDiv"><button id="btn" onclick="deleteItem(${count})">DEL</button></div></div>`;
   });
   document.getElementById("itemDiv").innerHTML = html;
   console.log(html);
